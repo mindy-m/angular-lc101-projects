@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'Photos Galore';
+  image1 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bourtzi_castle_harbour_Karystos_Euboea_Greece.jpg/1024px-Bourtzi_castle_harbour_Karystos_Euboea_Greece.jpg';
+  image2 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tiger_swallowtail_%2874863%29.jpg/1024px-Tiger_swallowtail_%2874863%29.jpg';
+  image3 = 'https://upload.wikimedia.org/wikipedia/commons/8/82/Pertandingan_loncat_api_indah_di_ujian_pencak_silat.jpg';
 
   constructor() { }
 
